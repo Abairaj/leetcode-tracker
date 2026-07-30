@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
 
   schedule:
-    # Runs every day at 18:30 UTC = 12:00 AM IST
-    - cron: "30 18 * * *"
+    # Runs every day at 06:10 UTC = 11:40 AM IST
+    - cron: "10 6 * * *"
 
 permissions:
   contents: write
